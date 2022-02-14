@@ -469,9 +469,31 @@
         </button>
         <p class="modal_title">Оставьте свои данные, мы вам перезвоним</p>
         <form class="modal_form">
-          <input type="text" class="modal_input">
-          <input type="text" class="modal_input">
-          <input type="text" class="modal_input">
+          <label for="user_name" class="modal_label">Имя</label>
+          <input
+            type="text"
+            name="user_name"
+            class="modal_input"
+            placeholder="Имя"
+            id="user_name"
+          />
+          <label for="user_phone" class="modal_label">Телефон</label>
+          <input
+            type="tel"
+            name="user_phone"
+            class="modal_input"
+            placeholder="Телефон"
+            id="user_phone"
+          />
+          <label for="user_email" class="modal_label">Почта</label>
+          <input
+            type="email"
+            name="user_email"
+            class="modal_input"
+            placeholder="Почта"
+            id="user_email"
+          />
+          <button type="submit">Отправить</button>
         </form>
       </div>
     </div>

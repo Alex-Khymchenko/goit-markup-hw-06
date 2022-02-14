@@ -893,6 +893,14 @@ right: 8px;
     margin-bottom: 28px;
 }
 
+.modal_label {
+    font-size: 12px;
+    line-height: 1.16;
+    color: #757575;
+    display: block;
+    margin-bottom: 4px;
+}
+
 
 
 
