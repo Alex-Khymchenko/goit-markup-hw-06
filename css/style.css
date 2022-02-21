@@ -292,7 +292,7 @@ margin-bottom: 30px;
     background-size: cover;
     padding-top: 200px;
     padding-bottom: 200px;
-    width: 1600px;
+    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -888,6 +888,11 @@ right: 8px;
     height: 11px;
 }
 
+.modal_close_icon:hover, 
+.modal_close:focus {
+    fill: #2196F3;
+}
+
 .form_field {
     margin-bottom: 10px;
 }
@@ -898,7 +903,7 @@ right: 8px;
     line-height: 1.15;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 12px;
 }
 
 .modal_input {
@@ -1056,6 +1061,11 @@ justify-content: center;
     background-image: url(../images/icon-check.svg);
     border: none;
 }
+
+.modal_check:focus + .agreement_text::before {
+    border-color: #2196F3;
+}
+
 
 .agreement_section {
     display: block;
